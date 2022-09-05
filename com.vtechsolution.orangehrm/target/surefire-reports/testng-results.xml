@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-14T13:52:52 IST" name="com.vtechsolution.orangehrmTestbase.TestBase" finished-at="2022-08-14T13:53:19 IST" duration-ms="27109">
+    <groups>
+    </groups>
+    <test started-at="2022-08-14T13:52:52 IST" name="Command line test" finished-at="2022-08-14T13:53:19 IST" duration-ms="27109">
+      <class name="com.vtechsolution.orangehrmTestbase.TestBase">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.vtechsolution.orangehrmTestbase.TestBase@1dd92fe2]" started-at="2022-08-14T13:52:52 IST" name="setUp" finished-at="2022-08-14T13:53:13 IST" duration-ms="21229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.vtechsolution.orangehrmTestbase.TestBase@1dd92fe2]" started-at="2022-08-14T13:53:13 IST" name="teardown" finished-at="2022-08-14T13:53:19 IST" duration-ms="5834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.vtechsolution.orangehrmTestbase.TestBase -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.vtechsolution.orangehrmTestbase.TestBase -->
+</testng-results>
