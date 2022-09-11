@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-04T19:12:21 IST" name="OrangeHrm Suite" finished-at="2022-09-04T19:13:36 IST" duration-ms="75380">
+  <suite started-at="2022-09-11T12:08:21 IST" name="Default suite" finished-at="2022-09-11T12:10:03 IST" duration-ms="102096">
     <groups>
     </groups>
-    <test started-at="2022-09-04T19:12:21 IST" name="Orange HRM Test" finished-at="2022-09-04T19:13:36 IST" duration-ms="75380">
+    <test started-at="2022-09-11T12:08:21 IST" name="Default test" finished-at="2022-09-11T12:10:03 IST" duration-ms="102096">
       <class name="com.vtechsolution.orangehrmTestcases.Login_Tc01">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@41d477ed]" started-at="2022-09-04T19:12:19 IST" name="init" finished-at="2022-09-04T19:12:21 IST" duration-ms="1785" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@411f53a0]" started-at="2022-09-11T12:08:18 IST" name="init" finished-at="2022-09-11T12:08:21 IST" duration-ms="2877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@41d477ed]" started-at="2022-09-04T19:12:21 IST" name="setUp" finished-at="2022-09-04T19:12:42 IST" duration-ms="20547" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@411f53a0]" started-at="2022-09-11T12:08:21 IST" name="setUp" finished-at="2022-09-11T12:09:27 IST" duration-ms="65740" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginPageTitleTc()[pri:1, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@41d477ed]" started-at="2022-09-04T19:12:42 IST" name="verifyLoginPageTitleTc" finished-at="2022-09-04T19:12:42 IST" duration-ms="65" status="PASS">
+        <test-method signature="verifyLoginPageTitleTc()[pri:1, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@411f53a0]" started-at="2022-09-11T12:09:27 IST" name="verifyLoginPageTitleTc" finished-at="2022-09-11T12:09:27 IST" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTc -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@41d477ed]" started-at="2022-09-04T19:12:42 IST" name="teardown" finished-at="2022-09-04T19:12:47 IST" duration-ms="5749" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@411f53a0]" started-at="2022-09-11T12:09:27 IST" name="teardown" finished-at="2022-09-11T12:09:33 IST" duration-ms="5871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@41d477ed]" started-at="2022-09-04T19:12:47 IST" name="setUp" finished-at="2022-09-04T19:13:06 IST" duration-ms="18903" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@411f53a0]" started-at="2022-09-11T12:09:33 IST" name="setUp" finished-at="2022-09-11T12:09:44 IST" duration-ms="11285" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,76 +41,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyOrangeHrmlogo()[pri:2, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@41d477ed]" started-at="2022-09-04T19:13:06 IST" name="verifyOrangeHrmlogo" finished-at="2022-09-04T19:13:08 IST" duration-ms="1184" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at com.vtechsolution.orangehrmTestcases.Login_Tc01.verifyOrangeHrmlogo(Login_Tc01.java:44)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyOrangeHrmlogo -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@41d477ed]" started-at="2022-09-04T19:13:08 IST" name="teardown" finished-at="2022-09-04T19:13:13 IST" duration-ms="5794" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@41d477ed]" started-at="2022-09-04T19:13:13 IST" name="setUp" finished-at="2022-09-04T19:13:24 IST" duration-ms="11023" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="LoginTc_o1()[pri:3, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@41d477ed]" started-at="2022-09-04T19:13:24 IST" name="LoginTc_o1" finished-at="2022-09-04T19:13:30 IST" duration-ms="5238" status="PASS">
+        <test-method signature="LoginTc_o1()[pri:4, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@411f53a0]" started-at="2022-09-11T12:09:44 IST" name="LoginTc_o1" finished-at="2022-09-11T12:09:56 IST" duration-ms="11792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTc_o1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@41d477ed]" started-at="2022-09-04T19:13:30 IST" name="teardown" finished-at="2022-09-04T19:13:36 IST" duration-ms="6715" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@411f53a0]" started-at="2022-09-11T12:09:56 IST" name="teardown" finished-at="2022-09-11T12:10:02 IST" duration-ms="6258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="extentFlush()[pri:0, instance:com.vtechsolution.orangehrmTestcases.Login_Tc01@411f53a0]" started-at="2022-09-11T12:10:02 IST" name="extentFlush" finished-at="2022-09-11T12:10:03 IST" duration-ms="938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentFlush -->
       </class> <!-- com.vtechsolution.orangehrmTestcases.Login_Tc01 -->
-    </test> <!-- Orange HRM Test -->
-  </suite> <!-- OrangeHrm Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

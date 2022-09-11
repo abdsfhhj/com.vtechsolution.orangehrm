@@ -1,3 +1,8 @@
+com\vtechsolution\orangehrmutility\ConfigDataProvider.class
 com\vtechsolution\orangehrmpageobject\LoginPage.class
 com\vtechsolution\orangehrmTestbase\TestBase.class
+com\vtechsolution\orangehrmutility\constantvariable.class
+com\vtechsolution\orangehrmTestcases\LoginTC_02.class
+com\vtechsolution\orangehrmutility\ExcelDataProvider.class
+com\vtechsolution\orangehrmTestcases\LoginTc_03.class
 com\vtechsolution\orangehrmTestcases\Login_Tc01.class
